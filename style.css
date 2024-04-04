@@ -1,3 +1,23 @@
 body {
   font-family: 'Times New Roman', Times, serif;
 }
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+h3 {
+  color: lightcoral;
+}
+ol,
+ul {
+  font-size: 16px;
+}
+
+img {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
