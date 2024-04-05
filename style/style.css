@@ -1,5 +1,15 @@
-body {
+* {
   font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  box-sizing: border-box;
+  width: 600px;
+  margin: 0px auto;
+  padding: 8px;
+  background-color: lightyellow;
 }
 
 h1 {
@@ -7,12 +17,15 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  color: lightcoral;
-}
-ol,
 ul {
   font-size: 16px;
+  list-style-type: none;
+}
+
+/* 如何让li标签平分盒子？ */
+li {
+  /* display: inline-block; */
+  background-color: aliceblue;
 }
 
 img {
